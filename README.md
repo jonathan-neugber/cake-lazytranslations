@@ -2,6 +2,10 @@
 
 A CakePHP 3 plugin that overrides the default `__` translation function to enable lazy evaluation.
 
+## Preface
+
+For now this is only a prototype/proof of concept.
+
 ## Use case
 
 Let's say you define some translations in a configuration file which is loaded in the `bootstrap.php`.
