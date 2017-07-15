@@ -1,0 +1,26 @@
+{
+    "name": "jonathan-neugber/cakephp-lazytranslations",
+    "description": "Lazy translations for cakephp",
+    "type": "project",
+    "license": "MIT",
+    "extra": {
+        "installer-name": "LazyTranslationsc"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "cakephp/cakephp": "3.4.*",
+        "mobiledetect/mobiledetectlib": "2.*",
+        "cakephp/migrations": "~1.0",
+        "cakephp/plugin-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LazyTranslations\\": "src"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
